@@ -11,7 +11,7 @@ Razuna is a hosted MCP server that connects any MCP-compatible AI tool to your R
 - **Notes & memory** — store and retrieve knowledge tied to your assets
 - **Semantic image search** — find visually similar images using CLIP embeddings
 - **59 tools** — full DAM operations via natural language
-- **Two data centers** — US (`mcp.razuna.com`) and EU (`mcp-eu.razuna.com`)
+- **Two data centers** — US (`mcp.razuna.com`) and EU (`mcp.razuna.eu`)
 
 ## Quick Start
 
@@ -37,7 +37,7 @@ Razuna is a hosted MCP server that connects any MCP-compatible AI tool to your R
 {
   "mcpServers": {
     "razuna": {
-      "url": "https://mcp-eu.razuna.com/mcp",
+      "url": "https://mcp.razuna.eu/mcp",
       "headers": {
         "access-token": "YOUR_ACCESS_TOKEN"
       }
@@ -68,7 +68,7 @@ All requests require an `access-token` header. Get your token from your Razuna a
 | Region | URL |
 |---|---|
 | US | `https://mcp.razuna.com/mcp` |
-| EU | `https://mcp-eu.razuna.com/mcp` |
+| EU | `https://mcp.razuna.eu/mcp` |
 
 ## License
 
